@@ -1,0 +1,36 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+     <div class="col-xs-12 header-div text-center">
+       <h2>Sound Controlled Animals</h2>
+       <label>Note: Play different like barking. meowing!</label>
+     </div>
+     <br>
+     <div class="main_div">
+         <center>
+              <button class="btn btn-warning" id="Start" onclick="startClassification();">Start</button>
+              <br>
+              <h3 id="object">I can hear: </h3>
+              <h3 id="accuracy">Accuracy: </h3>
+              <br>
+              <img src="aliens-01.png" id="result" width="300" height="300"> 
+         </center>
+     </div>
+
+     <div class="footer1">
+        <h1>Made By Raihaan</h1>
+     </div>
+    <script src="main.js"></script>
+  </body>
+</html>
